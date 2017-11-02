@@ -13,12 +13,12 @@ p.heavytext {
 p.breadtext {
     font-family: 'Verdana';
     font-size: 1em;
-    background-color: lightblue;
+    background-color: white;
 }
 ul.list {
     font-family: 'Verdana';
     font-size: 1em;
-    background-color: lightblue;
+    background-color: white;
 }
 .parent {
   position: relative;
@@ -28,19 +28,19 @@ ul.list {
 .image1 {
   position: relative;
   top: 0;
-  left: 0;
+  left: 12%;
 }
 .meatballday {
   width: 100px;
   height: auto;
   position: absolute;
   top: 260px;
-  left: 560px;
+  left: 590px;
 }
 .pancakeday {
   width: 100px;
   height: auto;
   position: absolute;
   top: 140px;
-  left: 687px;
+  left: 847px;
 }
