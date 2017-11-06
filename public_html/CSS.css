@@ -3,15 +3,15 @@ body {
 }
 h1.logo {
     text-align: center;
-    font-family: 'Asset';font-size: 4em;
+    font-family: 'Akronim';font-size: 5em;
 }
 p.heavytext {
     text-align: center;
-    font-family: 'Verdana';
+    font-family: Verdana;
     font-size: 2em;
 }
 p.breadtext {
-    font-family: 'Verdana';
+    font-family: Verdana;
     font-size: 1em;
     background-color: white;
 }
