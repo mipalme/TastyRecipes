@@ -1,9 +1,63 @@
 body {
     background-image: url("background.jpg");
+    margin: 1%;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 h1.logo {
     text-align: center;
     font-family: 'Akronim';font-size: 5em;
+    font-weight: normal;
+}
+h2.title {
+    font-size: 2em;
+}
+div {
+    display: block;
+}
+li {
+    display: list-item;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
 }
 p.heavytext {
     text-align: center;
@@ -19,23 +73,19 @@ ul.list {
     font-family: 'Verdana';
     font-size: 1em;
     background-color: white;
-}
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.image1 {
-  position: relative;
-  top: 0;
-  left: 12%;
+    list-style-type: disc;
+    
 }
 .calendarfood {
   width: 50%;
   height: auto;
   position: absolute;
   left: 24%;
-  top: 20%;
+  top: 30%;
+}
+.image {
+    width: 35%;
+    height: auto;  
 }
 
 /* CSS for the calendar */
@@ -106,7 +156,7 @@ body {font-family: Verdana, sans-serif;}
     margin-bottom: 15px;
     font-size:1em;
     color:#777;
-    height: 100px;
+    height: 12vw;
     position: relative;
 }
 /* Highlight days from previous month */
@@ -115,3 +165,24 @@ body {font-family: Verdana, sans-serif;}
     background: #A9A9A9;
     color: white !important
 }
+/* Add media queries for smaller screens */
+@media screen and (max-width: 1024px) {
+    .weekdays li, .days li {width: 13.3%;}        
+}
+@media screen and (max-width: 720px) {
+    .weekdays li, .days li {width: 12.0%;}
+    p.breadtext {font-size: 0.75em;}
+    p.heavytext {font-size: 1.5em;}
+    ul.list {font-size: 0.75em;}
+    h1.logo {font-size: 3.3em}
+    h2.title {font-size: 1.5em;}
+}
+@media screen and (max-width: 450px) {
+    p.breadtext {font-size: 0.5em;}
+    p.heavytext {font-size: 1em;}
+    ul.list {font-size: 0.5em;}
+    h1.logo {font-size: 2.5em}
+    h2.title {font-size: 1em;}
+}
+
+
