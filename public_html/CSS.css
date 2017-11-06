@@ -31,9 +31,11 @@ ul.list {
   left: 12%;
 }
 .calendarfood {
-  width: 100px;
+  width: 50%;
   height: auto;
-  padding: 5% 16%;
+  position: absolute;
+  left: 24%;
+  top: 20%;
 }
 
 /* CSS for the calendar */
@@ -102,14 +104,14 @@ body {font-family: Verdana, sans-serif;}
     width: 13.6%;
     text-align: left;
     margin-bottom: 15px;
-    font-size:12px;
+    font-size:1em;
     color:#777;
-    overflow: hidden;
     height: 100px;
+    position: relative;
 }
 /* Highlight days from previous month */
 .days li .previous {
-    padding: 5px;
+    padding: 1px;
     background: #A9A9A9;
     color: white !important
 }
