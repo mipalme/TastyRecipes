@@ -59,7 +59,12 @@ p {
     margin-left: 0;
     margin-right: 0;
 }
-p.heavytext {
+.heavytext {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2em;
+}
+h2.home {
     text-align: center;
     font-family: Verdana;
     font-size: 2em;
@@ -77,10 +82,10 @@ ul.list {
     
 }
 .calendarfood {
-  width: 50%;
+  width: 65%;
   height: auto;
   position: absolute;
-  left: 24%;
+  left: 15%;
   top: 30%;
 }
 .image {
@@ -112,19 +117,6 @@ body {font-family: Verdana, sans-serif;}
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-
-/* Previous button inside month header */
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-/* Next button */
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
 /* Weekdays (Mon-Sun) */
 .weekdays {
     margin: 0;
@@ -172,14 +164,14 @@ body {font-family: Verdana, sans-serif;}
 @media screen and (max-width: 720px) {
     .weekdays li, .days li {width: 12.0%;}
     p.breadtext {font-size: 0.75em;}
-    p.heavytext {font-size: 1.5em;}
+    .heavytext {font-size: 1.5em;}
     ul.list {font-size: 0.75em;}
     h1.logo {font-size: 3.3em}
     h2.title {font-size: 1.5em;}
 }
 @media screen and (max-width: 450px) {
     p.breadtext {font-size: 0.5em;}
-    p.heavytext {font-size: 1em;}
+    .heavytext {font-size: 1em;}
     ul.list {font-size: 0.5em;}
     h1.logo {font-size: 2.5em}
     h2.title {font-size: 1em;}
